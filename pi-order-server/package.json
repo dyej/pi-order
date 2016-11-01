@@ -1,0 +1,11 @@
+{
+    "name": "node-api",
+    "main": "server.js",
+    "dependencies": {
+      "body-parser": "^1.15.2",
+      "express": "^4.14.0",
+      "jsonfile": "^2.4.0",
+      "pug": "^2.0.0-beta6",
+      "python-shell": "~0.4.0"
+    }
+}
