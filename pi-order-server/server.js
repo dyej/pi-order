@@ -86,7 +86,7 @@ router.get('/', function(req, res) {
     })
 })
 
-router.route('/config').post((req, res) => {
+router.route('/submit').post((req, res) => {
   //console.log(req.body)
   var result = {}
   result["amazon-username"] = req.body["amazon-username"]
@@ -102,6 +102,18 @@ router.route('/config').post((req, res) => {
   jsonfile.writeFile(file, result, function (err) {
     console.error(err)
   })
+	res.render('result', {
+		username: req.body["amazon-username"],
+		name1: req.body["name1"],
+            	url1: req.body["url1"],
+            	name2: req.body["name2"],
+            	url2: req.body["url2"],
+            	name3: req.body["name3"],
+            	url3: req.body["url3"],
+            	name4: req.body["name4"],
+            	url4: req.body["url4"]
+		
+	});
 })
 
 // more routes for our API will happen here
