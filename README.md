@@ -13,13 +13,13 @@ Some notes about creating your own
 ## Built With
 #### Automation
 * [Selenium](http://docs.seleniumhq.org/) - Web Driver
-* [Pyvirtualdisplay](https://pypi.python.org/pypi/PyVirtualDisplay) - Headless Web Driving
+* [Pyvirtualdisplay](https://pypi.python.org/pypi/PyVirtualDisplay) - Headless Browser Instances
 
 #### Web App and Server
 * [Body-Parser](https://github.com/expressjs/body-parser) - Parse HTTP Requests
 * [Express](http://expressjs.com/) - Web Framework
 * [Jsonfile](https://www.npmjs.com/package/jsonfile) - Read/Write JSON Data
-* [Pug](https://www.npmjs.com/package/pug) - HTML Generation
+* [Pug](https://www.npmjs.com/package/pug) - Templating engine
 * [Python-Shell](https://github.com/extrabacon/python-shell) - Run Python From Node
 
 #### Raspberry Pi Hardware Control
