@@ -38,6 +38,6 @@ Some notes about creating your own
 * **Joe Dye** - Automation, Initial Web Application, Server Management - [dyej](https://github.com/dyej)
 * **Corey Ferris** - Final Web Application, Web Application Styling - [cferris32](https://github.com/cferris32)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/dyej/pi-order/graphs/contributors) who participated in this project.
 
 
