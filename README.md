@@ -35,8 +35,8 @@ Some notes about creating your own
 ## Authors
 
 * **Jayson Perkins** - Hardware Control, Automation, HTTP Request Control - [jperk51](https://github.com/jperk51)
-* **Joe Dye** - Automation, Initial Web App., Server Management - [dyej](https://github.com/dyej)
-* **Connie Fers** - Final Web App., Web App. Styling - [cferris32](https://github.com/cferris32)
+* **Joe Dye** - Automation, Initial Web Application, Server Management - [dyej](https://github.com/dyej)
+* **Connie Fers** - Final Web Application, Web Application Styling - [cferris32](https://github.com/cferris32)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
