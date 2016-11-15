@@ -30,7 +30,7 @@ Some notes about creating your own
 
 #### Languages
 * [Python3](https://www.python.org/) - RPi Hardware Control and Web Automation
-* [NodeJS](https://www.nodejs.org/) - Web App. Creation and HTTP Request Control
+* [NodeJS](https://www.nodejs.org/) - Web Application Creation and HTTP Request Control
 
 ## Authors
 
