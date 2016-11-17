@@ -5,7 +5,7 @@ An automated system for ordering products from Amazon.com
 ## How To Use
 
 #### 1. Fill Out User Info Form 
-* Open a web browser and navigate to [http://joedye.me/pi-order/](http://joedye.me/pi-order/)
+* Open a web browser and navigate to the user input form url
 * Fill out the requested user information then submit
 * The next page will give you a table indicating the traffic light colors for each product (Green Means Go)
 
