@@ -29,11 +29,9 @@ An automated system for ordering products from Amazon.com
 * The lighting tree will either show a green light or a red light based on whether the order was processed correctly
 * If the lighting tree shows red then try submitting the order again and make sure product info is correct
 
-## Deployment
+## DIY
+All of the source code is available via this repo.
 
-Some notes about creating your own
-
-## Built With
 #### Automation
 * [Selenium](http://docs.seleniumhq.org/) - Web Driver
 * [Pyvirtualdisplay](https://pypi.python.org/pypi/PyVirtualDisplay) - Headless Browser Instances
@@ -44,6 +42,14 @@ Some notes about creating your own
 * [Jsonfile](https://www.npmjs.com/package/jsonfile) - Read/Write JSON Data
 * [Pug](https://www.npmjs.com/package/pug) - Templating engine
 * [Python-Shell](https://github.com/extrabacon/python-shell) - Run Python From Node
+
+#### Hardware
+* [Rotary Encoder](https://www.sunfounder.com/rotary-encoder-module.html) - Product Selection
+* [Button](https://www.sunfounder.com/button-module.html) - Order Initiation 
+* [Lighting Tree](https://www.amazon.com/gp/product/B00RIIGD30/ref=oh_aui_detailpage_o08_s00?ie=UTF8&psc=1) - User Interface
+* [Raspberry Pi Model B](https://www.adafruit.com/products/998?gclid=COrEjMLNt9ACFQEEaQodHVwEfw) - ?
+* [Case](https://www.amazon.com/gp/product/B008VVXMK0/ref=oh_aui_detailpage_o05_s00?ie=UTF8&psc=1) - Hardware Protection
+* [Power Adapter](https://www.amazon.com/gp/product/B007ZN5LE0/ref=oh_aui_detailpage_o04_s00?ie=UTF8&psc=1) - Hardware Power
 
 #### Raspberry Pi Hardware Control
 * [Requests](http://docs.python-requests.org/en/master/) - Handle HTTP Requests
