@@ -47,7 +47,7 @@ All of the source code is available via this repo.
 * [Rotary Encoder](https://www.sunfounder.com/rotary-encoder-module.html) - Product Selection
 * [Button](https://www.sunfounder.com/button-module.html) - Order Initiation 
 * [Lighting Tree](https://www.amazon.com/gp/product/B00RIIGD30/ref=oh_aui_detailpage_o08_s00?ie=UTF8&psc=1) - User Interface
-* [Raspberry Pi Model B](https://www.adafruit.com/products/998?gclid=COrEjMLNt9ACFQEEaQodHVwEfw) - ?
+* [Raspberry Pi Model B](https://www.adafruit.com/products/998?gclid=COrEjMLNt9ACFQEEaQodHVwEfw) - Client Hardware Platform
 * [Case](https://www.amazon.com/gp/product/B008VVXMK0/ref=oh_aui_detailpage_o05_s00?ie=UTF8&psc=1) - Hardware Protection
 * [Power Adapter](https://www.amazon.com/gp/product/B007ZN5LE0/ref=oh_aui_detailpage_o04_s00?ie=UTF8&psc=1) - Hardware Power
 
