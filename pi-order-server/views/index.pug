@@ -1,42 +1,43 @@
 html
-  head
-    title= "Configure Your Pi-Order"
-  body
-    form(method='POST' action='/pi-order/submit')
-          div.form-group
-            label(for='amazon-username') Username:
-            input#username.form-control(type='text', value=username, name='amazon-username')
-          div.form-group
-            label(for='amazon-password') Password:
-            input#password.form-control(type='text', value=password, name='amazon-password')
-          div.form-group
-            label(for='wifi-network') Wifi Network:
-            input#wifinetwork.form-control(type='text', value=wifinetwork, name='wifi-network')
-          div.form-group
-            label(for='wifi-password') Wifi Password:
-            input#wifipassword.form-control(type='text', value=wifipassword, name='wifi-password')
-          div.form-group
-            label(for='name1') Product 1 Name:
-            input#name1.form-control(type='text', value=name1, name='name1')
-          div.form-group
-            label(for='url1') Product 1 URL:
-            input#url1.form-control(type='text', value=url1, name='url1')
-          div.form-group
-            label(for='name2') Product 2 Name:
-            input#name2.form-control(type='text', value=name2, name='name2')
-          div.form-group
-            label(for='url2') Product 2 URL:
-            input#url2.form-control(type='text', value=url2, name='url2')
-          div.form-group
-            label(for='name3') Product 3 Name:
-            input#name3.form-control(type='text', value=name3, name='name3')
-          div.form-group
-            label(for='url3') Product 3 URL:
-            input#url3.form-control(type='text', value=url3, name='url3')
-          div.form-group
-            label(for='name4') Product 4 Name:
-            input#name4.form-control(type='text', value=name4, name='name4')
-          div.form-group
-            label(for='url4') Product 4 URL:
-            input#url4.form-control(type='text', value=url4, name='url4')
-          button.btn.btn-primary(type='submit') Submit
+	head
+		title= "Configure Your Pi-Order"
+		link(rel='stylesheet', href='../styles/index.css')
+	body
+		form(method='POST' action='/pi-order/submit')
+			div.form-group
+				label(for='amazon-username') Username:
+				input#username.form-control(type='text', value=username, name='amazon-username')
+			div.form-group
+				label(for='amazon-password') Password:
+				input#password.form-control(type='text', value=password, name='amazon-password')
+			div.form-group
+				label(for='wifi-network') Wifi Network:
+				input#wifinetwork.form-control(type='text', value=wifinetwork, name='wifi-network')
+			div.form-group
+				label(for='wifi-password') Wifi Password:
+				input#wifipassword.form-control(type='text', value=wifipassword, name='wifi-password')
+			div.form-group
+				label(for='name1') Product 1 Name:
+				input#name1.form-control(type='text', value=name1, name='name1')
+			div.form-group
+				label(for='url1') Product 1 URL:
+				input#url1.form-control(type='text', value=url1, name='url1')
+			div.form-group
+				label(for='name2') Product 2 Name:
+				input#name2.form-control(type='text', value=name2, name='name2')
+			div.form-group
+				label(for='url2') Product 2 URL:
+				input#url2.form-control(type='text', value=url2, name='url2')
+			div.form-group
+				label(for='name3') Product 3 Name:
+				input#name3.form-control(type='text', value=name3, name='name3')
+			div.form-group
+				label(for='url3') Product 3 URL:
+				input#url3.form-control(type='text', value=url3, name='url3')
+			div.form-group
+				label(for='name4') Product 4 Name:
+				input#name4.form-control(type='text', value=name4, name='name4')
+			div.form-group
+				label(for='url4') Product 4 URL:
+				input#url4.form-control(type='text', value=url4, name='url4')
+			button.btn.btn-primary(type='submit') Submit
