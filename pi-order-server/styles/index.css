@@ -1,4 +1,8 @@
 body {
-	margin: 50px;
-	background-color: blue;
+	margin: 10px;
+	background-color: grey;
+}
+
+input {
+	margin: 10px;
 }
