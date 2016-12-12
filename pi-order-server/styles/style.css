@@ -1,8 +1,12 @@
 body {
-	margin: 10px;
+	margin: auto;
 	background-color: grey;
 }
 
 input {
 	margin: 10px;
+}
+
+form {
+    display: inline-block;
 }
