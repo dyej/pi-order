@@ -31,12 +31,6 @@ router.route('/order').post(function(req, res) {
     var configJSON = JSON.parse(fs.readFileSync('config.json', 'utf8'));
     var product = req.body.product;
 
-    var username = configJSON['amazon-username'];
-    var password = configJSON['amazon-password'];
-    var prodURL = configJSON[product]['URL'];
-    console.log("JS: " + username + " " + password + " " + prodURL);
-    //Try Order if error retrun bad order
-
     var options = {
         mode: 'text',
         pythonPath: '/usr/bin/python3',
