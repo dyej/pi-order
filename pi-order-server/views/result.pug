@@ -1,8 +1,14 @@
 html
 	head
 		title= "Results of Your Pi-Order"
+		link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
 	body
+		style.
+			body {
+				margin: 20px;
+			}
 		h1 CYPHER BLAPPS
+<<<<<<< Updated upstream
 		p #{username}'s Product Results
 		div(class='product1')
 			p Green :: #{name1} :: #{url1}
@@ -26,3 +32,29 @@ html
 			|.
 			= ' '
 			a(href="https://github.com/dyej/pi-order") Pi-Order Github Repo
+=======
+		table
+			style.
+				table, th, td {
+					border: 5px solid black;
+					padding: 5px;
+				}
+			th
+				p #{username}'s Product Results
+			tr
+				td
+					div(class='product1')
+						p Green :: #{name1} :: #{url1}
+			tr
+				td
+					div(class='product2')
+						p Green-Yellow :: #{name2} :: #{url2}
+			tr
+				td
+					div(class='product3')
+						p Green-Red :: #{name3} :: #{url3}
+			tr
+				td
+					div(class='product4')
+						p Green-Yellow-Red :: #{name4} :: #{url4}
+>>>>>>> Stashed changes
