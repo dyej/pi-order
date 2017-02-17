@@ -1,4 +1,12 @@
 html
+	style.
+		html, body {
+			height: 100%;
+		}
+		html{
+			display: table;
+			margin: auto;
+		}
 	head
 		title= "Results of Your Pi-Order"
 		link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
@@ -6,28 +14,55 @@ html
 		style.
 			body {
 				margin: 20px;
+				display: table-cell;
+				vertrical-align:middle;
 			}
 		h2 #{username}'s Product Results
 		table
 			style.
 				table, th, td {
-					border: 5px solid black;
+					border: 3px solid black;
 					padding: 5px;
 				}
+				.block-container {
+					text-align: left;
+				}
+				.block1, .block2, .block3 {
+					display: inline;
+				}
 			tr
-				td Green 
+				td 
+					div.block1
+						span(style='color:green') Green 
 				td #{name1} 
 				td #{url1}
 			tr
-				td Green-Yellow 
+				td 
+					div.block-container
+						div.block1
+							span(style='color:green') Green-
+						div.block2
+							span(style='color:#FFE033') Yellow 
 				td #{name2} 
 				td #{url2}
 			tr
-				td Green-Red 
+				td 
+					div.block-container
+						div.block1
+							span(style='color:green') Green-
+						div.block2
+							span(style='color:red') Red 
 				td #{name3} 
 				td #{url3}
 			tr
-				td Green-Yellow-Red 
+				td 
+					div.block-container
+						div.block1
+							span(style='color:green') Green-
+						div.block2
+							span(style='color:#FFE033') Yellow
+						div.block3
+							span(style='color:red') -Red
 				td #{name4} 
 				td #{url4}
 		p &nbsp
@@ -42,5 +77,7 @@ html
 			= ' '
 			a(href="https://github.com/cferris32") Corey Ferris
 			|.
+		p
+			span(style='font-weight:bold') More Info:
 			= ' '
 			a(href="https://github.com/dyej/pi-order") Pi-Order Github Repo

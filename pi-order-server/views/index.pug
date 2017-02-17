@@ -1,4 +1,12 @@
 html
+	style.
+		html, body {
+			height: 100%;
+		}
+		html{
+			display: table;
+			margin: auto;
+		}
 	head
 		title= "Configure Your Pi-Order"
 		link(rel='stylesheet', href='/styles/style.css')
@@ -7,14 +15,48 @@ html
 		style.
 			body {
 				margin: 20px;
+				display: table-cell;
+				vertrical-align: middle;
 			}
-		h1
-			HI WELCOME TO PI-ORDER :-)
+			.headnfoot-container {
+				background-color: #474747;
+				width: 100%;
+				margin-left: auto;
+				margin-right: auto;
+				border-radius: 5px;
+			}
+			.footer-content-container {
+				color: #F5F5F5;
+				padding: 3px;
+			}
+			h1 {
+				color: #F5F5F5;
+				padding: 5px;
+			}
+			a:link {
+				color: #00C5FF;
+			}
+			a:visited {
+				color: #FB00FF;
+			}
+			a:hover {
+
+			}
+			a:active {
+
+			}
+		div.headnfoot-container
+			h1
+				span(style='text-align: center') Welcome to Pi-Order
 		form(method='POST' action='/pi-order/submit')
 			table
 				style.
 					td {
 						padding: 5px;
+					}
+					input {
+						display: inline-block;
+						float: left;
 					}
 				tr
 					td
@@ -86,16 +128,20 @@ html
 					td
 						button.btn.btn-primary(type='submit') Submit
 			p &nbsp
-			p
-				| Pi-Order was designed and developed by
-				= ' '
-				a(href="https://jperk51.github.io/resume/") Jayson Perkins
-				|,
-				= ' '
-				a(href="http://www.joedye.me/") Joey Dye
-				|,
-				= ' '
-				a(href="https://github.com/cferris32") Corey Ferris
-				|.
-				= ' '
-				a(href="https://github.com/dyej/pi-order") Pi-Order Github Repo
+			div.headnfoot-container
+				div.footer-content-container
+					p
+						| Pi-Order was designed and developed by
+						= ' '
+						a(href="https://jperk51.github.io/resume/") Jayson Perkins
+						|,
+						= ' '
+						a(href="http://www.joedye.me/") Joey Dye
+						|,
+						= ' '
+						a(href="https://github.com/cferris32") Corey Ferris
+						|.
+					p
+						span(style='font-weight:bold') More Info:
+						= ' '
+						a(href="https://github.com/dyej/pi-order", style='') Pi-Order Github Repo
