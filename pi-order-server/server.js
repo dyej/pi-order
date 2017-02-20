@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(bodyParser.json());
 
-app.use(express.static("styles"));
+app.use('/styles', express.static(path.join(__dirname, 'styles')));
 app.set('view engine', 'pug');
 
 var port = 9090; // set our port
