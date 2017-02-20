@@ -40,6 +40,10 @@ h1 {
 	padding: 3px;
 }
 
+.footer-content-container a:hover {
+	color: #E1E1E1;
+}
+
 .return-group a:visited {
 	color: #FFFFFF;
 }
@@ -49,5 +53,5 @@ a:link {
 }
 
 a:visited {
-	color: #AA00FF;
+	color: #A95DFF;
 }

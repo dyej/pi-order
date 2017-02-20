@@ -35,6 +35,10 @@ form {
 	padding: 3px;
 }
 
+.footer-content-container a:hover {
+	color: #E1E1E1;
+}
+
 h1 {
 	padding: 5px;
 }
@@ -44,7 +48,7 @@ a:link {
 }
 
 a:visited {
-	color: #AA00FF;
+	color: #A95DFF;
 }
 
 input {
