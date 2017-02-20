@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(bodyParser.json());
 
-app.use("/styles", express.static(__dirname + "/pi-order/styles"));
+app.use("/styles", express.static("/styles"));
 app.set('view engine', 'pug');
 
 var port = 9090; // set our port
