@@ -10,15 +10,20 @@ html{
 body {
 	margin: 20px;
 	display: table-cell;
-	vertrical-align: middle;
+	vertrical-align:middle;
 }
 
-form {
-    display: inline-block;
-}
 
-.form-group, .submit-group {
+h1 {
 	padding: 5px;
+}
+
+.block-container {
+	text-align: left;
+}
+
+.block1, .block2, .block3 {
+	display: inline;
 }
 
 .headnfoot-container {
@@ -35,8 +40,8 @@ form {
 	padding: 3px;
 }
 
-h1 {
-	padding: 5px;
+.return-group a:visited {
+	color: #FFFFFF;
 }
 
 a:link {
@@ -45,10 +50,4 @@ a:link {
 
 a:visited {
 	color: #AA00FF;
-}
-
-input {
-	margin: 10px;
-	display: inline-block;
-	float: left;
 }

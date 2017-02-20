@@ -1,57 +1,14 @@
 html
-	style.
-		html, body {
-			height: 100%;
-		}
-		html{
-			display: table;
-			margin: auto;
-		}
 	head
 		title= "Configure Your Pi-Order"
 		link(rel='stylesheet', href='/styles/style.css')
 		link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
 	body
-		style.
-			body {
-				margin: 20px;
-				display: table-cell;
-				vertrical-align: middle;
-			}
-			.headnfoot-container {
-				background-color: #474747;
-				width: 100%;
-				margin-left: auto;
-				margin-right: auto;
-				border-radius: 5px;
-			}
-			.footer-content-container {
-				color: #F5F5F5;
-				padding: 3px;
-			}
-			h1 {
-				color: #F5F5F5;
-				padding: 5px;
-			}
-			a:link {
-				color: #00C5FF;
-			}
-			a:visited {
-				color: #FB00FF;
-			}
 		div.headnfoot-container
 			h1
 				span(style='text-align: center') Welcome to Pi-Order
 		form(method='POST' action='/pi-order/submit')
 			table
-				style.
-					td {
-						padding: 5px;
-					}
-					input {
-						display: inline-block;
-						float: left;
-					}
 				tr
 					td
 						div.form-group
@@ -120,7 +77,8 @@ html
 							input#url4.form-control(type='text', value=url4, name='url4')
 				tr
 					td
-						button.btn.btn-primary(type='submit') Submit
+						div.submit-group
+							button.btn.btn-primary(type='submit') Submit
 			p &nbsp
 			div.headnfoot-container
 				div.footer-content-container
