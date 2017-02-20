@@ -5,6 +5,7 @@ var bodyParser = require('body-parser');
 var pyShell = require('python-shell');
 var jsonfile = require('jsonfile')
 var file = 'config.json'
+const path = require('path');
 
 // configure app to use bodyParser()
 // this will let us get the data from a POST
@@ -13,7 +14,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(bodyParser.json());
 
-app.use('/styles', express.static('/styles/'));
+app.use('/styles', express.static(path.dirname(__filename) + '/styles/'));
 app.set('view engine', 'pug');
 
 var port = 9090; // set our port
