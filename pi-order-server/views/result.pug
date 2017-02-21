@@ -1,36 +1,12 @@
 html
-	style.
-		html, body {
-			height: 100%;
-		}
-		html{
-			display: table;
-			margin: auto;
-		}
 	head
 		title= "Results of Your Pi-Order"
-		link(rel='stylesheet', type='text/css', href='/styles/result.css')
+		link(rel='stylesheet', href='/styles/result.css')
 		link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
 	body
-		style.
-			body {
-				margin: 20px;
-				display: table-cell;
-				vertrical-align:middle;
-			}
-		h2 #{username}'s Product Results
-		table
-			style.
-				table, th, td {
-					border: 3px solid black;
-					padding: 5px;
-				}
-				.block-container {
-					text-align: left;
-				}
-				.block1, .block2, .block3 {
-					display: inline;
-				}
+		div.headnfoot-container
+			h1 #{username}'s Product Results
+		table(class='table table-bordered')
 			tr
 				td 
 					div.block1
@@ -43,7 +19,7 @@ html
 						div.block1
 							span(style='color:green') Green-
 						div.block2
-							span(style='color:#FFE033') Yellow 
+							span(style='color:#C9C900') Yellow 
 				td #{name2} 
 				td #{url2}
 			tr
@@ -61,24 +37,28 @@ html
 						div.block1
 							span(style='color:green') Green-
 						div.block2
-							span(style='color:#FFE033') Yellow
+							span(style='color:#C9C900') Yellow
 						div.block3
 							span(style='color:red') -Red
 				td #{name4} 
 				td #{url4}
+		div.return-group
+			a(type='button' class='btn btn-primary' href='/pi-order') Return
 		p &nbsp
-		p
-			| Pi-Order was designed and developed by
-			= ' '
-			a(href="https://jperk51.github.io/resume/") Jayson Perkins
-			|,
-			= ' '
-			a(href="http://www.joedye.me/") Joey Dye
-			|,
-			= ' '
-			a(href="https://github.com/cferris32") Corey Ferris
-			|.
-		p
-			span(style='font-weight:bold') More Info:
-			= ' '
-			a(href="https://github.com/dyej/pi-order") Pi-Order Github Repo
+		div.headnfoot-container
+				div.footer-content-container
+					p
+						| Pi-Order was designed and developed by
+						= ' '
+						a(href="https://jperk51.github.io/resume/") Jayson Perkins
+						|,
+						= ' '
+						a(href="http://www.joedye.me/") Joey Dye
+						|,
+						= ' '
+						a(href="https://github.com/cferris32") Corey Ferris
+						|.
+					p
+						span(style='font-weight:bold') More Info:
+						= ' '
+						a(href="https://github.com/dyej/pi-order") Pi-Order Github Repo
