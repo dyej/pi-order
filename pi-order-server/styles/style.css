@@ -1,12 +1,58 @@
-body {
-	margin: 10px;
-	background-color: grey;
+html, body {
+	height: 100%;
 }
 
-input {
-	margin: 10px;
+html{
+	display: table;
+	margin: auto;
+}
+
+body {
+	margin: 20px;
+	display: table-cell;
+	vertrical-align: middle;
 }
 
 form {
     display: inline-block;
+}
+
+.form-group, .submit-group {
+	padding: 5px;
+}
+
+.headnfoot-container {
+	background-color: #474747;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+	color: #F5F5F5;
+}
+
+.footer-content-container {
+	color: #F5F5F5;
+	padding: 3px;
+}
+
+.footer-content-container a:hover {
+	color: #E1E1E1;
+}
+
+h1 {
+	padding: 5px;
+}
+
+a:link {
+	color: #00C5FF;
+}
+
+a:visited {
+	color: #A95DFF;
+}
+
+input {
+	margin: 10px;
+	display: inline-block;
+	float: left;
 }
